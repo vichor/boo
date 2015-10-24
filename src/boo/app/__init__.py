@@ -1,0 +1,4 @@
+"""
+Boo application
+"""
+
