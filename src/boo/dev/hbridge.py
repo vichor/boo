@@ -33,14 +33,14 @@ class hbridge(object):
         self._pinh.write(io.LOW)
         self._pinl.write(io.HIGH)
 
-    def breakgnd(self):
+    def brakegnd(self):
         """
         Breaks H bridge to ground.
         """
         self._pinh.write(io.LOW)
         self._pinl.write(io.LOW)
 
-    def breakvcc(self):
+    def brakevcc(self):
         """
         Breaks H bridge to battery/Vcc.
         """
