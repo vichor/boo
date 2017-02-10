@@ -38,5 +38,5 @@ class motor(object):
         """
         Stops the motor.
         """
-        self._bridge.breakgnd()
+        self._bridge.brakegnd()
 
